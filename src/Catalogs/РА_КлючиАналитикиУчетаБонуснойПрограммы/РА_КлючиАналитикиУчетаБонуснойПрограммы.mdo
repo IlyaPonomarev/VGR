@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da3410d7-5130-48e3-8b06-3c3cb797b65e">
+  <producedTypes>
+    <objectType typeId="2e005537-b339-42fd-998a-312989e0468d" valueTypeId="58c54307-3dc4-4e8c-83e2-11b1cc7b0ab8"/>
+    <refType typeId="d57572c6-b18c-417f-bb47-5fa2e20394a6" valueTypeId="00cf9e17-b3f1-4cd2-9448-6b586de2e2f3"/>
+    <selectionType typeId="fb5329e9-d34b-4841-aac8-e5a088399576" valueTypeId="fae361b3-4a4b-4340-84cc-df8193d778df"/>
+    <listType typeId="470e7225-7a86-4df9-a1d2-818a44b6f564" valueTypeId="890c1970-cae5-43e1-b79d-249e35f51a8c"/>
+    <managerType typeId="4acdd81c-8e15-4da8-9e2e-d1b0c06e9cc6" valueTypeId="5c7cc0ff-f4e0-4dcc-9fa4-af8c7cfb8f78"/>
+  </producedTypes>
+  <name>РА_КлючиАналитикиУчетаБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи аналитики учета бонусной программы (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1eda387f-766e-4c0a-8958-5e6a4dfa8737">
+    <name>ОбъектНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипДоговора</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыДоговоров.EnumValue.СПокупателем</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99938908-8774-4ebe-ba2d-61296c79299f">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РА_ПериодыДействияБонуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b4e16e8-e79e-494a-ae74-0f7526c2ee15">
+    <name>УидБонуснойПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уид бонусной программы</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4130d57c-c9ca-4b5b-8a3c-decb4c2b71e5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="428fd2c0-1a32-4019-a0ef-708ff3205119">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9043b0fa-3fca-4e88-a8ad-1ef3e97d82b4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

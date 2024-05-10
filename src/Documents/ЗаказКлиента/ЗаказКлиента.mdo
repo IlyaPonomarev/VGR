@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="034b3ddd-586d-44b8-bde8-b1288c5f06a7" extendedConfigurationObject="1ceef4a2-6b58-45a0-8a75-bb6e3004590f">
+  <producedTypes>
+    <objectType typeId="3af954d6-1592-4d41-a618-30e433827215" valueTypeId="eef9d21b-2480-46d2-a21f-4c44b80b3bb9"/>
+    <refType typeId="f21db43a-b37f-44bc-9084-b004d94f3d35" valueTypeId="84c361a8-1932-4aef-91bb-448fe7b965ba"/>
+    <selectionType typeId="db54541e-6b1b-4af6-b0c0-72c8cbcdbf71" valueTypeId="cd85bdf5-e6b7-4da4-a0bb-21c75fe6d1a8"/>
+    <listType typeId="f470617a-bca3-4bad-8c33-05acba1c6e96" valueTypeId="445e7883-4fa7-49dc-8211-5107c0aeb403"/>
+    <managerType typeId="562de951-b849-4ce0-bf4d-6bd0d675d0fc" valueTypeId="8abe732b-439b-4bbe-8427-546d788985d5"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="99f60fb2-3894-4de1-ae2f-aee793fa1416">
+    <name>РА_ФорматОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат отгрузки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.РА_ФорматыОтгрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ae21b2c3-1e91-449a-8786-9b46af81abd8" extendedConfigurationObject="be5457cf-0707-477b-bd1d-257c85cd70d5">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dede62ad-f9ce-4905-aeb8-8137f37bc993">
+  <producedTypes>
+    <refType typeId="150bc29e-b9fb-4231-9f2c-38ed1a179e13" valueTypeId="3de2fad7-bc95-43e4-a90b-f52cc5c032e9"/>
+    <listType typeId="acbdd9ad-5716-42e1-9319-8166278a5490" valueTypeId="92660c10-99ae-427e-9ce5-3a9a00399f42"/>
+    <managerType typeId="5958830c-767e-47ad-925e-31927d7b9acf" valueTypeId="76acbfd8-e9fe-4d80-b715-699823bd1e83"/>
+  </producedTypes>
+  <name>РА_ТипыПремийПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы премий партнерам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4dc8b42-5c37-4f20-b275-3cc56f954c86">
+    <name>ПремияЗаВыполнениеПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за выполнение плана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1abbbe21-d2aa-42f3-893e-a891f71e6a97">
+    <name>ПремияЗаНаличиеШоуРума</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за наличие шоу-рума(бренд-зоны)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="967333dd-8e1d-4e15-9067-c70f227f9304">
+    <name>ПремияЗаПредоплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за предоплату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31fdd6e6-dca7-4024-b6c1-d2e0562efba3">
+    <name>ПремияЗаПредоставлениеСтатистическихДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за предоставление статистических данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ba599ab-6b5f-489b-8222-6af46d3777a5">
+    <name>ПремияЗаСложныйПродукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за сложный продукт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f4717f7-3480-4088-b7cb-c2315f70306d">
+    <name>ПремияЗаФорматОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за формат отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f171b6c1-5c16-4195-9822-2849778c9c0c">
+    <name>ПремияПоВидамПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия по видам продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11cc4c93-ee26-41aa-940b-a1acf288ba66">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

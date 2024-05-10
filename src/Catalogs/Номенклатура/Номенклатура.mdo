@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce83acc2-da1f-4cbc-9f03-551f79ead345" extendedConfigurationObject="fc59acc3-f1f7-4e3f-96da-e580f2c5a88f">
+  <producedTypes>
+    <objectType typeId="af3bbc12-6f85-4711-990f-6627c87ec884" valueTypeId="c2e520db-96ec-491f-8709-14cf044ac9b2"/>
+    <refType typeId="308a8202-d3f8-4f35-9dfd-ab5d310eed9d" valueTypeId="2336fe02-13e4-4682-9673-5ad18d41efc5"/>
+    <selectionType typeId="f2d0e0d5-9c08-4c51-8491-e382d1269ab2" valueTypeId="5361321e-6153-4de6-96ee-ee5e9878907a"/>
+    <listType typeId="4337abdc-4f95-4f67-a62c-f61f20d5a825" valueTypeId="90a5c3b9-2ebd-4020-b596-13f4b30cc5a0"/>
+    <managerType typeId="1079eb10-a404-493c-b8f1-e26c507bbeb9" valueTypeId="5f8e3090-274f-48f1-bbcb-23da5db3fa21"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="208d83dc-a6b5-4904-ab0e-cbb33f4c0b6a">
+    <name>РА_ВидОборудованияДляНачисленияБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оборудования</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.РА_ВидыОборудованияДляНачисленияБонусов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

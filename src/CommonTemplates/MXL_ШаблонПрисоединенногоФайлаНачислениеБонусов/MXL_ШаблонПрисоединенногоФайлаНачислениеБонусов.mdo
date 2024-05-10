@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30ddebe1-b324-41f4-8629-8ca94fc82edb">
+  <name>MXL_ШаблонПрисоединенногоФайлаНачислениеБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>MXL шаблон присоединенного файла начисление бонусов</value>
+  </synonym>
+</mdclass:CommonTemplate>

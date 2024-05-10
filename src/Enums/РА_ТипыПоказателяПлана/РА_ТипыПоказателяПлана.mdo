@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92806729-41e8-467b-9b20-c370375562e6">
+  <producedTypes>
+    <refType typeId="14983b3a-dc1f-4801-bb4d-21443ab1858e" valueTypeId="7cefdf52-7cb7-4d25-8260-195779d8ff52"/>
+    <listType typeId="0a2ad468-55d0-46d4-9674-a9124458f630" valueTypeId="8967ce7f-ba13-4a67-be16-3a8079fa5984"/>
+    <managerType typeId="aaa9b561-9911-4b20-9fe8-e8ebaec9360f" valueTypeId="68f1ec3c-dc3d-4eb7-9b45-ff9e4697ad18"/>
+  </producedTypes>
+  <name>РА_ТипыПоказателяПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателя плана</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="267592fb-efd6-41ad-ab9f-0a55614fbbc9">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad0c1aea-ae98-4817-a869-6ba1ce11e8d3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef70a8e5-ae5d-4c2e-a568-fa76d9a9c9b9">
+    <name>НетПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет плана</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
