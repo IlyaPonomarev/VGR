@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.РА_ВидыОборудованияДляНачисленияБонусов</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -79,7 +79,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаполнениеБонусовПартнеровВПрошломПериоде</name>
+		<name>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -90,7 +90,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.РА_НастройкиНачисленияБонусовПартнерам</name>
+		<name>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -208,7 +208,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_БонусныеПрограммы</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -279,7 +279,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.РА_БонусыПартнерам</name>
+		<name>Subsystem.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -372,7 +372,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.РА_БонусыПартнерам</name>
+		<name>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -406,7 +406,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_ФорматыОтгрузки</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -481,7 +481,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

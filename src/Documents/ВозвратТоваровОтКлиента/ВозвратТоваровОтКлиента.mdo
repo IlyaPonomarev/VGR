@@ -12,7 +12,7 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <registerRecords>AccumulationRegister.РА_БонусыПартнерам</registerRecords>
+  <registerRecords>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</registerRecords>
   <attributes uuid="5d0ee728-04a9-4488-9497-b2a35d3610e9" extendedConfigurationObject="540b6290-f046-4049-ac65-5814b24bea80">
     <name>Договор</name>
     <objectBelonging>Adopted</objectBelonging>

@@ -481,6 +481,7 @@
         </title>
         <appearance>
           <items xsi:type="settings:SettingsParameterValue">
+            <use>false</use>
             <parameter>
               <value>Формат</value>
             </parameter>

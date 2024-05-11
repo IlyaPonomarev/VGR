@@ -39,7 +39,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.РА_БонусыПартнерам</subsystems>
+  <subsystems>Subsystem.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</subsystems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ЦветФонаВнимание</styleItems>
@@ -72,6 +72,12 @@
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
+  <commonPictures>CommonPicture.Внимание16</commonPictures>
+  <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.РА_НачБонусовПартнерамРольПолная</roles>
   <commonTemplates>CommonTemplate.MXL_ШаблонПрисоединенногоФайлаНачислениеБонусов</commonTemplates>
@@ -86,6 +92,7 @@
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</definedTypes>
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
@@ -110,17 +117,17 @@
   <catalogs>Catalog.КодыОперацийРаздела7ДекларацииПоНДС</catalogs>
   <catalogs>Catalog.ЗоныДоставки</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
-  <catalogs>Catalog.РА_ФорматыОтгрузки</catalogs>
-  <catalogs>Catalog.РА_ВидыОборудованияДляНачисленияБонусов</catalogs>
-  <catalogs>Catalog.РА_БонусныеПрограммы</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</catalogs>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.ВозвратТоваровОтКлиента</documents>
+  <documents>Document.ЗаказКлиента</documents>
   <documents>Document.КорректировкаРеализации</documents>
   <documents>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</documents>
   <documents>Document.ПриобретениеУслугПрочихАктивов</documents>
-  <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ТипыДоговоров</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ПорядокРасчетов</enums>
@@ -141,8 +148,8 @@
   <enums>Enum.РА_ТипыПоказателяПоВидамОборудования</enums>
   <reports>Report.РА_ВедомостьПоБонусамКлиентов</reports>
   <reports>Report.РА_НастройкиБонусныхПрограмм</reports>
-  <dataProcessors>DataProcessor.ЗаполнениеБонусовПартнеровВПрошломПериоде</dataProcessors>
-  <informationRegisters>InformationRegister.РА_НастройкиНачисленияБонусовПартнерам</informationRegisters>
+  <dataProcessors>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</dataProcessors>
+  <informationRegisters>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам</informationRegisters>
   <informationRegisters>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.РА_БонусыПартнерам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</accumulationRegisters>
 </mdclass:Configuration>

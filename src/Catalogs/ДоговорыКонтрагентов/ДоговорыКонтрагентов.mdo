@@ -855,7 +855,7 @@
     </extension>
   </attributes>
   <attributes uuid="dd675c64-80a6-4570-b177-98c962524dde">
-    <name>РА_ОсновнойДоговор</name>
+    <name>РА_ПодсистемаРасчетаБонусовПартнеров_ОсновнойДоговор</name>
     <synonym>
       <key>ru</key>
       <value>Основной договор</value>

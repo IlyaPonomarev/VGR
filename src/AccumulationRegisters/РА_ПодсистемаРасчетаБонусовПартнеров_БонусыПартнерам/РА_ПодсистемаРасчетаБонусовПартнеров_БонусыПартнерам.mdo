@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="843ccd71-a7c9-4757-8826-aaf261e3a0f3">
+  <producedTypes>
+    <selectionType typeId="772668db-d875-4e39-8275-6cc1c8799325" valueTypeId="b6269643-d84e-4e2b-8aa2-fa158572d16d"/>
+    <listType typeId="d582f560-ca5d-48ee-870e-03a4d1dc8a47" valueTypeId="275b243b-1ceb-4876-9c5c-3492a596da38"/>
+    <managerType typeId="02a8f040-6471-4c51-9575-8f7167cb37c7" valueTypeId="229f6689-9624-4440-9491-27999c7ea1a0"/>
+    <recordSetType typeId="61f14fcd-64c0-4953-93f2-7594accf4df5" valueTypeId="12a23191-65a5-4368-9f4f-6bf3c170997c"/>
+    <recordKeyType typeId="7b224677-79b7-4fdd-8514-a458b32448f6" valueTypeId="28790b95-8c33-48ba-aad3-1afe7016b34f"/>
+    <recordType typeId="117a81f3-cf30-40d2-9b13-961d19eba92a" valueTypeId="81a5b06d-4648-4f05-bc0d-2a3fc9318496"/>
+  </producedTypes>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусы партнерам (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7be295c6-62bf-41a9-942f-debcd6a458a9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="3e51abe6-2bf1-4dea-ad59-958096e500f3">
+    <name>СуммаВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выручки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="c4eec97e-6e90-4e8e-ae32-c9c1e14aef16">
+    <name>ПроцентПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="3077aef4-8a10-4fa8-a870-ae6a0c1005ae">
+    <name>АналитикаУчетаБонуснойПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика учета бонусной программы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</types>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3107bec1-0c59-4613-b65b-f25f48ae9023">
+    <name>ТипПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип премии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РА_ТипыПремийПартнерам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="312f7797-1f01-4ad9-868a-3415a5e18a6d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

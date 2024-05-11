@@ -32,7 +32,7 @@
   <defaultObjectForm>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.РА_БонусыПартнерам</registerRecords>
+  <registerRecords>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="5cdd49c5-25fd-49d0-9dfd-35f12aad42a4">
@@ -408,7 +408,7 @@
         <value>Аналитика учета бонусной программы</value>
       </synonym>
       <type>
-        <types>CatalogRef.РА_КлючиАналитикиУчетаБонуснойПрограммы</types>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -529,7 +529,7 @@
         <value>Аналитика учета бонусной программы</value>
       </synonym>
       <type>
-        <types>CatalogRef.РА_КлючиАналитикиУчетаБонуснойПрограммы</types>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

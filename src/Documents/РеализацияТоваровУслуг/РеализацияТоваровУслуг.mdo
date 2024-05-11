@@ -11,8 +11,9 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
   </extension>
-  <registerRecords>AccumulationRegister.РА_БонусыПартнерам</registerRecords>
+  <registerRecords>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</registerRecords>
   <attributes uuid="03ae3fc5-d66c-4ba4-b56a-04fbb163afef" extendedConfigurationObject="e5b27a28-42e1-42b3-806c-83e1fbeb7907">
     <name>Договор</name>
     <objectBelonging>Adopted</objectBelonging>

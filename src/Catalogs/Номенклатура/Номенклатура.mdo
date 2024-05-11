@@ -13,14 +13,14 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <attributes uuid="208d83dc-a6b5-4904-ab0e-cbb33f4c0b6a">
-    <name>РА_ВидОборудованияДляНачисленияБонусов</name>
+    <name>РА_ПодсистемаРасчетаБонусовПартнеров_ВидОборудованияДляНачисленияБонусов</name>
     <synonym>
       <key>ru</key>
       <value>Вид оборудования</value>
     </synonym>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
     <type>
-      <types>CatalogRef.РА_ВидыОборудованияДляНачисленияБонусов</types>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

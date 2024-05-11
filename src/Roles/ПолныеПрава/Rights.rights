@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>false</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.РА_ВидыОборудованияДляНачисленияБонусов</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -27,7 +27,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_БонусныеПрограммы</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -73,7 +73,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_ФорматыОтгрузки</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -96,7 +96,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</name>
 		<right>
 			<name>InteractiveInsert</name>
 			<value>false</value>

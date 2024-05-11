@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb570ef-2f8b-4c5d-9782-0c9f59ff682a">
+  <producedTypes>
+    <containerType typeId="392dfc22-9632-4cd2-8521-dc45f42811b9" valueTypeId="72986c25-1ea6-40ec-af11-0ffe24e8fd82"/>
+  </producedTypes>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты настройки бонусной программы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Партнеры</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+</mdclass:DefinedType>

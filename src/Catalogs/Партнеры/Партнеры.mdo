@@ -39,7 +39,7 @@
     </extension>
   </attributes>
   <attributes uuid="1a8117e4-85a7-4b63-a978-c5888a346c19">
-    <name>РА_Контролирует</name>
+    <name>РА_ПодсистемаРасчетаБонусовПартнеров_Контролирует</name>
     <synonym>
       <key>ru</key>
       <value>Контролирует</value>
