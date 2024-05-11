@@ -174,7 +174,8 @@
       <value>Объект настройки</value>
     </synonym>
     <type>
-      <types>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Партнеры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
