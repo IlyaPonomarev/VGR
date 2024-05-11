@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:core_1="http://g5.1c.ru/v8/dt/data-composition-system/core" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema" xmlns:settings="http://g5.1c.ru/v8/dt/data-composition-system/settings">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -416,11 +416,7 @@
       <queryText>ВЫБРАТЬ
 	ПериодыДействияБонуса.Ссылка КАК Ссылка,
 	ПериодыДействияБонуса.Наименование КАК Наименование,
-	ПериодыДействияБонуса.НачалоПериода КАК НачалоПериода,
-	ПериодыДействияБонуса.КонецПериода КАК КонецПериода,
-	ПериодыДействияБонуса.ТипПериода КАК ТипПериода,
-	ГОД(ПериодыДействияБонуса.НачалоПериода) КАК ГодПериода,
-	ПериодыДействияБонуса.НачалоПериода КАК ПредставлениеГода
+	ПериодыДействияБонуса.ТипПериода КАК ТипПериода
 ИЗ
 	Справочник.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса КАК ПериодыДействияБонуса</queryText>
       <mainTable>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</mainTable>
@@ -429,20 +425,16 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Предопределенный</dataPath>
-        <field>Предопределенный</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИмяПредопределенныхДанных</dataPath>
-        <field>ИмяПредопределенныхДанных</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наименование</dataPath>
         <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипПериода</dataPath>
+        <field>ТипПериода</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>НачалоПериода</dataPath>
@@ -453,46 +445,12 @@
         <field>КонецПериода</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ТипПериода</dataPath>
-        <field>ТипПериода</field>
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ГодПериода</dataPath>
-        <field>ГодПериода</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Год периода</value>
-            </content>
-          </localValue>
-        </title>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПредставлениеГода</dataPath>
-        <field>ПредставлениеГода</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Представление года</value>
-            </content>
-          </localValue>
-        </title>
-        <appearance>
-          <items xsi:type="settings:SettingsParameterValue">
-            <use>false</use>
-            <parameter>
-              <value>Формат</value>
-            </parameter>
-            <values xsi:type="core_1:LocalString">
-              <content>
-                <key>ru</key>
-                <value>ДФ='yyyy &quot;г.&quot;'</value>
-              </content>
-            </values>
-          </items>
-        </appearance>
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПометкаУдаления</dataPath>

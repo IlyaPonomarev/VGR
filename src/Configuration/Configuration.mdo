@@ -94,9 +94,6 @@
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</definedTypes>
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
-  <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
-  <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
-  <commonForms>CommonForm.ФормаОтчета</commonForms>
   <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Производители</catalogs>

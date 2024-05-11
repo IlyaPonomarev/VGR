@@ -12,8 +12,6 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>CommonForm.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.РА_ВедомостьПоБонусамКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
-  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <templates uuid="da3e379c-2ca3-4904-9acd-2880b83b5449">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>

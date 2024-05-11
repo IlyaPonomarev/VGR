@@ -63,26 +63,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Контрагент</dataPath>
-			<field>Контрагент</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Контрагент</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Договор</dataPath>
-			<field>Договор</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Договор</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДействия</dataPath>
 			<field>ПериодДействия</field>
 			<title xsi:type="v8:LocalStringType">
@@ -123,6 +103,26 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы КАК АналитикаУчетаБонуснойПрограммы,
@@ -131,8 +131,8 @@
 	РА_БонусыПартнерамОстаткиИОбороты.СуммаНачальныйОстаток КАК НачальныйОстаток,
 	РА_БонусыПартнерамОстаткиИОбороты.СуммаПриход КАК Начисление,
 	РА_БонусыПартнерамОстаткиИОбороты.СуммаРасход КАК Списание,
-	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы.Договор.Контрагент КАК Контрагент,
-	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы.Договор КАК Договор,
+	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы.Владелец.Контрагент КАК Контрагент,
+	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы.Владелец КАК Договор,
 	РА_БонусыПартнерамОстаткиИОбороты.АналитикаУчетаБонуснойПрограммы.ПериодДействия КАК ПериодДействия,
 	РА_БонусыПартнерамОстаткиИОбороты.Регистратор КАК Регистратор,
 	РА_БонусыПартнерамОстаткиИОбороты.СуммаОборот КАК СуммаОборот,

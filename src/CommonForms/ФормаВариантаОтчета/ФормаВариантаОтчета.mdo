@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9eb89444-5aa4-4419-a6e5-392a361d7d8e" extendedConfigurationObject="1f55f330-7c0a-4a29-905f-51d664515bc5">
-  <name>ФормаВариантаОтчета</name>
-  <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CommonFormExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <form>Extended</form>
-  </extension>
-</mdclass:CommonForm>
