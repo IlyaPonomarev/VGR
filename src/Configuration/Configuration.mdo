@@ -114,7 +114,6 @@
   <catalogs>Catalog.КодыОперацийРаздела7ДекларацииПоНДС</catalogs>
   <catalogs>Catalog.ЗоныДоставки</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</catalogs>
   <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</catalogs>
@@ -146,7 +145,6 @@
   <reports>Report.РА_ВедомостьПоБонусамКлиентов</reports>
   <reports>Report.РА_НастройкиБонусныхПрограмм</reports>
   <dataProcessors>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</dataProcessors>
-  <informationRegisters>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам</informationRegisters>
   <informationRegisters>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</accumulationRegisters>
 </mdclass:Configuration>

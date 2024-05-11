@@ -8,26 +8,10 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.Create</command>
-      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
@@ -37,13 +21,7 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам.StandardCommand.OpenList</commands>
-      <commands>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>ActionsPanelTools</group>
-      <commands>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.Create</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -53,14 +31,11 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам.StandardCommand.OpenList</commands>
-      <commands>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде.StandardCommand.Open</commands>
-      <commands>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

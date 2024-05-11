@@ -9,14 +9,12 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</content>
   <content>Enum.РА_ТипыПериодов</content>
-  <content>InformationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам</content>
   <content>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</content>
   <content>Enum.РА_ТипыПремийПартнерам</content>
   <content>Enum.РА_ТипыПоказателяПлана</content>
   <content>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</content>
   <content>Report.РА_ВедомостьПоБонусамКлиентов</content>
   <content>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</content>
-  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_КлючиАналитикиУчетаБонуснойПрограммы</content>
   <content>Report.РА_НастройкиБонусныхПрограмм</content>
   <content>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</content>
   <content>Enum.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</content>
