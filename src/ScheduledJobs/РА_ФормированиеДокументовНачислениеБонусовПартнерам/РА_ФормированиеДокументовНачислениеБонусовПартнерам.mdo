@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Формирование документов &quot;Начисление бонусов партнерам&quot; (Vaillant)</value>
   </synonym>
-  <methodName>CommonModule.РА_РасчетБонусовСервер.СформироватьНачисленияБонусовКлиентам</methodName>
+  <methodName>CommonModule.РА_ПодсистемаРасчетаБонусовПартнеров_РасчетБонусовСервер.СформироватьНачисленияБонусовКлиентам</methodName>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

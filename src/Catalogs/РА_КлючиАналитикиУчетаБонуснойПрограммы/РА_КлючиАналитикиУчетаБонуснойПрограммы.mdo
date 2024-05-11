@@ -64,7 +64,7 @@
       <value>Период действия</value>
     </synonym>
     <type>
-      <types>CatalogRef.РА_ПериодыДействияБонуса</types>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

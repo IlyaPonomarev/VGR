@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Role.РА_НачБонусовПартнерамРольПолная.Rights">
+  <suppressions key="com.e1c.v8codestyle.right:right-delete" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-thin-client" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-save-user-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-output-to-printer-file-clipboard" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-web-client" value="true"/>
+</suppress:SuppressGenericObject>

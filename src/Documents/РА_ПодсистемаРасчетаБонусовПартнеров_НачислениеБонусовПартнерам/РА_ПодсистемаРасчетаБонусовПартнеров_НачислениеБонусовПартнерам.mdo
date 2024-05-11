@@ -7,17 +7,21 @@
     <listType typeId="3d55ea8a-a9f6-46fd-95b6-fa4a258ef268" valueTypeId="0a0e45c6-7835-438e-a91f-bcc6c67b15ef"/>
     <managerType typeId="2bb91818-42ce-47b2-b7e4-d5cbbee7f220" valueTypeId="6caeaaef-8080-45fb-8a52-43d2bbb769da"/>
   </producedTypes>
-  <name>РА_НачислениеБонусовПартнерам</name>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</name>
   <synonym>
     <key>ru</key>
     <value>Начисление бонусов партнерам (Vaillant)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.РА_НачислениеБонусовПартнерам.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Начисление бонусов партнерам (Vaillant)</value>
+  </objectPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -25,8 +29,8 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.РА_НачислениеБонусовПартнерам.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.РА_НачислениеБонусовПартнерам.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.РА_БонусыПартнерам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -78,15 +82,12 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>500</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -103,7 +104,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Партнер</name>
-      <field>Document.РА_НачислениеБонусовПартнерам.Attribute.Партнер</field>
+      <field>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.Attribute.Партнер</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -196,7 +197,7 @@
       <value>Период действия</value>
     </synonym>
     <type>
-      <types>CatalogRef.РА_ПериодыДействияБонуса</types>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -554,7 +555,7 @@
         <value>Период действия</value>
       </synonym>
       <type>
-        <types>CatalogRef.РА_ПериодыДействияБонуса</types>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -7,13 +7,13 @@
     <listType typeId="303682df-8ab2-426a-8059-45730b81727e" valueTypeId="cc785633-f60b-4bde-b4c7-a39896903322"/>
     <managerType typeId="82a9770e-63ab-4ed0-8d73-3354c63574f0" valueTypeId="941b425c-eeaf-4aa6-a646-8f4442ad3852"/>
   </producedTypes>
-  <name>РА_ПериодыДействияБонуса</name>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</name>
   <synonym>
     <key>ru</key>
     <value>Периоды действия бонуса (Vaillant)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.РА_ПериодыДействияБонуса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -93,6 +93,22 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Период действия бонуса (Vaillant)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Период действия бонуса (Vaillant)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Периоды действия бонуса (Vaillant)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Периоды действия бонуса (Vaillant)</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>50</descriptionLength>
@@ -101,9 +117,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.РА_ПериодыДействияБонуса.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.РА_ПериодыДействияБонуса.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.РА_ПериодыДействияБонуса.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultObjectForm>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="ebb2cae2-32cc-459d-bdec-9080612efe04">
     <name>НачалоПериода</name>
     <synonym>

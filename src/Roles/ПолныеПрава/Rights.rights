@@ -21,6 +21,10 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.РА_БонусныеПрограммы</name>
@@ -40,9 +44,13 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
 	</object>
 	<object>
-		<name>Catalog.РА_ПериодыДействияБонуса</name>
+		<name>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -57,6 +65,10 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -76,6 +88,10 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -99,6 +115,10 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -130,7 +150,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РА_НачислениеБонусовПартнерам</name>
+		<name>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

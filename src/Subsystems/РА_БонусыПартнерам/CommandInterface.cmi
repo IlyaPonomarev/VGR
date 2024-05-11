@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Document.РА_НачислениеБонусовПартнерам.StandardCommand.OpenList</command>
+      <command>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -33,7 +33,7 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Document.РА_НачислениеБонусовПартнерам.StandardCommand.OpenList</commands>
+      <commands>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -49,7 +49,7 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Document.РА_НачислениеБонусовПартнерам.StandardCommand.OpenList</commands>
+      <commands>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

@@ -13,7 +13,7 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <attributes uuid="99f60fb2-3894-4de1-ae2f-aee793fa1416">
-    <name>РА_ФорматОтгрузки</name>
+    <name>РА_ПодсистемаРасчетаБонусовПартнеров_ФорматОтгрузки</name>
     <synonym>
       <key>ru</key>
       <value>Формат отгрузки</value>

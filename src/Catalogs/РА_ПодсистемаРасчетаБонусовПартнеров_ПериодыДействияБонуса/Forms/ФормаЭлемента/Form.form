@@ -316,7 +316,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.РА_ПериодыДействияБонуса</types>
+      <types>CatalogObject.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</types>
     </valueType>
     <view>
       <common>true</common>

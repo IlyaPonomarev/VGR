@@ -252,7 +252,7 @@
           <titleHeight>2</titleHeight>
           <handlers>
             <event>OnChange</event>
-            <name>ПартнерПриИзменении</name>
+            <name>ПартнерБезКЛПриИзменении</name>
           </handlers>
           <extendedTooltip>
             <name>ПартнерБезКЛРасширеннаяПодсказка</name>
@@ -1376,7 +1376,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <footerDataPath xsi:type="form:DataPath">
-            <segments>Объект.НачисленияАвтоматическийРасчет.TotalСуммаБонуса</segments>
+            <segments>Объект.НачисленияАвтоматическийРасчет.СуммаБонуса</segments>
           </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
@@ -3196,7 +3196,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.РА_НачислениеБонусовПартнерам</types>
+      <types>DocumentObject.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</types>
     </valueType>
     <view>
       <common>true</common>
@@ -3294,10 +3294,6 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

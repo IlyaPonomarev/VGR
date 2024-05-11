@@ -7,13 +7,13 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.РА_ПериодыДействияБонуса</content>
+  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</content>
   <content>Enum.РА_ТипыПериодов</content>
   <content>InformationRegister.РА_НастройкиНачисленияБонусовПартнерам</content>
   <content>AccumulationRegister.РА_БонусыПартнерам</content>
   <content>Enum.РА_ТипыПремийПартнерам</content>
   <content>Enum.РА_ТипыПоказателяПлана</content>
-  <content>Document.РА_НачислениеБонусовПартнерам</content>
+  <content>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</content>
   <content>Report.РА_ВедомостьПоБонусамКлиентов</content>
   <content>DataProcessor.ЗаполнениеБонусовПартнеровВПрошломПериоде</content>
   <content>Catalog.РА_КлючиАналитикиУчетаБонуснойПрограммы</content>
