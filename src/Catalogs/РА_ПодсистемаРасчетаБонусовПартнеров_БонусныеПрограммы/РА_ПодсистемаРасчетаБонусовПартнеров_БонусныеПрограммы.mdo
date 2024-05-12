@@ -121,6 +121,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="099b02bd-8bd0-4cea-85e9-58d4cb646704">
     <name>Валюта</name>
     <synonym>
@@ -354,6 +355,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c2b31ff5-63b9-4327-8b13-99cdd9cfac5b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="777f3499-0ab0-4454-8f24-84d036086ed4">
     <producedTypes>
       <objectType typeId="d01e930c-1512-48c0-b0ed-098c218fc828" valueTypeId="4a3a9c69-69d9-44d3-bf3d-dc1206515cf7"/>
@@ -539,4 +557,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="6078c749-6bbe-4979-aa54-8fc4aa9a0f17">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

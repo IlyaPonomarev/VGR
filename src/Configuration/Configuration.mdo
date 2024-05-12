@@ -30,7 +30,6 @@
   <version>2024-05-10 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.23</compatibilityMode>
   <languages uuid="6990adad-fd36-4181-88f8-76b98f89751f" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -95,6 +94,9 @@
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</definedTypes>
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
+  <commonForms>CommonForm.ФормаОтчета</commonForms>
+  <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
+  <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Производители</catalogs>
