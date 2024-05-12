@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42ac581e-4773-4efa-9f4a-d2d3ab2cd93e">
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусы партнерам (Vaillant)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</content>
+  <content>Enum.РА_ТипыПериодов</content>
+  <content>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</content>
+  <content>Enum.РА_ТипыПремийПартнерам</content>
+  <content>Enum.РА_ТипыПоказателяПлана</content>
+  <content>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</content>
+  <content>Report.РА_ВедомостьПоБонусамКлиентов</content>
+  <content>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</content>
+  <content>Report.РА_НастройкиБонусныхПрограмм</content>
+  <content>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</content>
+  <content>Enum.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</content>
+  <content>ScheduledJob.РА_ФормированиеДокументовНачислениеБонусовПартнерам</content>
+  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</content>
+  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</content>
+  <content>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</content>
+</mdclass:Subsystem>

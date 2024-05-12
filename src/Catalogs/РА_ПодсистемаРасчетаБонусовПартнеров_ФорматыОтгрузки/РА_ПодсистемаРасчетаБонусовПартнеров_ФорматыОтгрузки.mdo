@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f8f188e-2f0d-4de7-8831-e655e097fcc7">
+  <producedTypes>
+    <objectType typeId="cc6906e8-5a2f-4e2d-b5f0-abff7231fe69" valueTypeId="70f25c21-6eaa-49c4-a153-3e8f63c5fdb3"/>
+    <refType typeId="7b349a9c-3327-4049-a790-60f8ade125a1" valueTypeId="757e22ee-15f0-473b-8732-08723a86f06d"/>
+    <selectionType typeId="6741e4a6-06f3-4202-b745-b1d857d74f65" valueTypeId="774f4d6e-72b6-44f9-93a0-b359b0cf3039"/>
+    <listType typeId="8402ad63-bd86-476e-ae72-f040f3668c29" valueTypeId="690e349c-1152-4ef9-b622-f7d0eb91d4bc"/>
+    <managerType typeId="481588b5-717c-40b9-8454-997bbb417353" valueTypeId="aa776c0f-1d7a-4a5b-a65f-f3df82b708f6"/>
+  </producedTypes>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы отгрузки (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Форматыотгрузки (Vaillant)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Формат отгрузки (Vaillant)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Форматы отгрузки (Vaillant)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Форматы отгрузки (Vaillant)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

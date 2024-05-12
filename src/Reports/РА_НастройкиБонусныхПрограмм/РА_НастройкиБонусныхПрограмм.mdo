@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d61a871-2d34-4ddf-a07e-4eeafe4dd966">
+  <producedTypes>
+    <objectType typeId="dce2a713-e685-428f-a455-6bb4b8e68ce4" valueTypeId="c73d312c-452c-4e6e-99e1-e82b30a46ee3"/>
+    <managerType typeId="5b4e8032-b9e9-4c5b-a81e-58459a3761c5" valueTypeId="37ed970c-9b3c-47e0-ab05-bbb73f7d03ca"/>
+  </producedTypes>
+  <name>РА_НастройкиБонусныхПрограмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки бонусных программ (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РА_НастройкиБонусныхПрограмм.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="4af5b91d-81ad-4bd4-81d0-4df15ecac6bb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

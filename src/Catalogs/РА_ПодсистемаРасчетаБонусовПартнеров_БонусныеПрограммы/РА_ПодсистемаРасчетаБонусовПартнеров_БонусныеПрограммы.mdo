@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b17a3e9-2450-4484-956b-4c99125507d5">
+  <producedTypes>
+    <objectType typeId="a428b242-a62a-4d45-bd0c-8f4f1b6897ba" valueTypeId="b2b13cf4-a04d-4288-aa04-dd7505d3a426"/>
+    <refType typeId="acca420e-d3f7-487c-b379-6bddd061e11b" valueTypeId="1160b930-472e-44ea-afe2-a8328762b9e8"/>
+    <selectionType typeId="371c713f-e874-4f79-b6a6-4b587af326ad" valueTypeId="0d5594bf-e297-43f1-845f-008a6c999984"/>
+    <listType typeId="d6a1b905-f926-4338-95ef-d2d613490f30" valueTypeId="d8393e77-7512-4da9-95ab-c868f03b343f"/>
+    <managerType typeId="29a03f13-979a-4e28-ac8c-946fe191beb3" valueTypeId="801b0bfc-e9e2-43fd-8850-bb790beb3d38"/>
+  </producedTypes>
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусная программа (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бонусная программа (Vaillant)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Бонусная программа (Vaillant)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Бонусные программы (Vaillant)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Бонусные программы (Vaillant)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ДоговорыКонтрагентов</owners>
+  <owners>Catalog.Партнеры</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="099b02bd-8bd0-4cea-85e9-58d4cb646704">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e843729-fbf9-4ec4-a684-65a6159c97d5">
+    <name>ДатаДосрочногоЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата досрочного завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37d0d497-ddb1-4cdb-ad49-0e2116031b8e">
+    <name>ДатаПриложенияКДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приложения к договору</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a06fb32-4c8a-4c72-a483-763f5d863113">
+    <name>НомерПриложенияКДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер приложения к договору</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd351ccc-9dc0-409a-ab5e-8663c356d3b6">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9312408-7fd5-4a17-83dc-4b387f34a231">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53b1049e-913d-4a19-a734-86b30e679da4">
+    <name>ПоказательПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель плана</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5818cefb-cc13-48f3-ac88-dcec95a0a1f0">
+    <name>ПроцентПремииЗаПланЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии за план закупок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2bd368b-096d-43c0-98e8-98510e248d01">
+    <name>ПроцентПремииЗаПредоплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии за предоплату</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d46e4b25-ee6d-47ee-94ed-9c8830813ee4">
+    <name>ПроцентПремииЗаСложныйПродукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии за сложный продукт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59f3f158-ec11-454f-a5ee-fdb0f21cadd5">
+    <name>ПроцентПремииЗаСтатистическиеДанныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии за статистические данные данные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b164ab95-026b-4808-8885-6afbd7abc258">
+    <name>ПроцентПремииЗаШоуРум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии за шоу-рум(бренд-зону)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cadfde7-9096-4601-ab63-1642fef475f1">
+    <name>ТипПоказателяПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя плана</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РА_ТипыПоказателяПлана</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="777f3499-0ab0-4454-8f24-84d036086ed4">
+    <producedTypes>
+      <objectType typeId="d01e930c-1512-48c0-b0ed-098c218fc828" valueTypeId="4a3a9c69-69d9-44d3-bf3d-dc1206515cf7"/>
+      <rowType typeId="99561cfc-b1a2-48f7-89ef-ee9b94ae6aea" valueTypeId="2289ef1b-eb89-4136-a966-c38214d5c138"/>
+    </producedTypes>
+    <name>Производители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производители</value>
+    </synonym>
+    <attributes uuid="603a0bcf-8cd0-4e3c-a3e0-e7c56dc1ad50">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Производители</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7d0b872a-8e57-4d41-8250-54c6aa3485a9">
+    <producedTypes>
+      <objectType typeId="d995d964-0ada-4b02-880a-f0c554813cf5" valueTypeId="89372cc5-bc5b-4839-b539-46561e97a5fc"/>
+      <rowType typeId="0d283d43-9072-41e3-9529-ebf657213ffb" valueTypeId="793019ca-ac53-4e31-9096-fa477cc53c37"/>
+    </producedTypes>
+    <name>ДополнительнаяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная номенклатура</value>
+    </synonym>
+    <attributes uuid="605db74b-7202-4f4b-9c16-319c69c301ea">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="979dcee3-ad0f-4e66-bfb0-cf3a3258e842">
+    <producedTypes>
+      <objectType typeId="3fbc4a3e-5fbb-4d3d-aae4-aa1f284c8c75" valueTypeId="e363a7eb-3035-4d58-88b8-5cb91d85474d"/>
+      <rowType typeId="e4ca2f84-e7fd-4546-ba0e-3bf5ee88925c" valueTypeId="b8c76549-ae0c-4509-bc31-0c818cc124a3"/>
+    </producedTypes>
+    <name>НастройкиПремийПоФорматамОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки премий по форматам отгрузки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b28d55e9-9cea-4c21-a00c-cc91f6709014">
+      <name>ФорматОтгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формат отгрузки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05be4da6-d191-4504-8642-bfd2301d7528">
+      <name>ПроцентПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4aea1091-5d04-416a-9768-9031515efb4d">
+    <producedTypes>
+      <objectType typeId="65695724-0e1b-42da-9564-d16ed5dafc34" valueTypeId="b7efee12-37e0-43f6-9f46-23eda5c86473"/>
+      <rowType typeId="729550b2-1032-4314-87db-e34bd39e591e" valueTypeId="2b2d3271-1a97-41af-9c19-dea1df4e1f09"/>
+    </producedTypes>
+    <name>НастройкиПремийПоВидамОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки премий по видам оборудования</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="385cda65-615f-45d4-9837-7b58a01d26e6">
+      <name>ВидОборудования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид оборудования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f369607d-0a27-4a12-a8bf-37beae0e6efd">
+      <name>ПроцентПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6defe5e6-7489-4fa3-a525-10b66e80a6d4">
+      <name>ТипПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип показателя</value>
+      </synonym>
+      <type>
+        <types>EnumRef.РА_ТипыПоказателяПоВидамОборудования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be9af4b1-a297-46bd-8262-d2bf6150628c">
+      <name>Показатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

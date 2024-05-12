@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30af22fa-598f-4e79-a4e7-514d9132bb30">
+  <name>РА_НачБонусовПартнерамРольПолная</name>
+  <synonym>
+    <key>ru</key>
+    <value>НачБонусов полная</value>
+  </synonym>
+</mdclass:Role>

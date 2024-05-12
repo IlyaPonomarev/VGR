@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f4de3dc-d6d9-44b8-a123-86d7e2ea6177" extendedConfigurationObject="9235a616-7522-46b5-a735-a395fdc80d7c">
+  <producedTypes>
+    <refType typeId="5e5eeb37-67e5-402f-b800-175b7951fe54" valueTypeId="bb2950fc-3b34-497c-9fbd-523cc002c1bf"/>
+    <listType typeId="d5068aad-52f4-4e8b-a34d-162ce1786289" valueTypeId="b9ec5dcc-0bc2-4894-823a-db92c2f3e9c4"/>
+    <managerType typeId="b6964f2e-4825-434c-92cd-7e3b8c67f6ea" valueTypeId="a363607a-3b2c-4cf8-a58d-7c64ab717778"/>
+  </producedTypes>
+  <name>ВидыАгентскихДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

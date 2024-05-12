@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3804c1b1-f6bc-4555-a329-62fd9ab938ee">
+  <producedTypes>
+    <selectionType typeId="bd20acb7-968f-4311-9de0-c28e8cb3dc18" valueTypeId="3fa3479a-f66d-413f-8dd5-2d0aa208cb35"/>
+    <listType typeId="bdd0ec2b-9860-43e1-a4bd-92b8eedc0960" valueTypeId="a335dc17-e42a-4776-8703-b7106ca9db80"/>
+    <managerType typeId="97175b87-2e40-4f4c-9ff9-2845ac616824" valueTypeId="b8810400-5f28-412d-8daf-5960585b325d"/>
+    <recordSetType typeId="75f42838-2949-4880-a666-44b8264f5500" valueTypeId="bae16344-0203-41f4-9f14-19979fd3ff4b"/>
+    <recordKeyType typeId="1df1a6ac-ebc0-4231-8044-83829be28be8" valueTypeId="04483cc8-4049-4cd7-9ff4-1f312fd34099"/>
+    <recordType typeId="ffe0e2a4-ba35-4a93-87a1-b2280534b32f" valueTypeId="bd0eee88-0503-4cf3-adba-28741c0fdd2e"/>
+    <recordManagerType typeId="deafb126-2564-4e13-9509-015d32e1fa87" valueTypeId="6770dddf-d211-4150-b345-9aa4413f4107"/>
+  </producedTypes>
+  <name>РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки автоматического формирования начисления бонусов партнерам (Vaillant)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="daae22ce-7ee1-485c-837a-16f42700161c">
+    <name>ПериодичностьФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность формирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам.EnumValue.ЗаПредыдущийМесяц</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a4e60ce8-fed4-403a-a47e-ca4b7a398b39">
+    <name>ОбновлятьРанееСозданныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять ранее созданные документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="103536ba-e512-4201-9eb2-cc743ac29170">
+    <name>УчетнаяЗаписьДляРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись для рассылки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="1edff5fb-7a92-4644-835f-ba22cff2fd72">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

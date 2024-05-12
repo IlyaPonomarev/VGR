@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Role.ПолныеПрава.Rights">
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-set-deletion-mark-predefined-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-clear-deletion-mark-predefined-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-delete" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-delete-marked-predefined-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-delete-predefined-data" value="true"/>
+</suppress:SuppressGenericObject>

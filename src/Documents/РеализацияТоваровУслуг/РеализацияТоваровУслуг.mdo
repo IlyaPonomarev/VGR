@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c6ce3fdc-783b-4829-b358-b9ca7f2d4e40" extendedConfigurationObject="8eac9a31-ed8b-4965-85f9-086b89e1764b">
+  <producedTypes>
+    <objectType typeId="7103eaef-e304-4b28-91bc-04174fab1152" valueTypeId="0b999474-1df9-4a0e-8915-fef5ad34dd67"/>
+    <refType typeId="3d7adc24-2efa-43ed-87f4-c5901cdd7d55" valueTypeId="dbd67dd8-72ed-42cc-8b6d-57912d0c72dd"/>
+    <selectionType typeId="786919fd-80bf-4fd4-b377-ba9b64df4b68" valueTypeId="14168f61-c3a3-49ea-b283-d58dd32e5a08"/>
+    <listType typeId="d6efeb67-9b24-443b-88e9-c1307d59fb7c" valueTypeId="8fbde2ed-1aed-4af2-ab04-c73d4aec8376"/>
+    <managerType typeId="cc0725bc-b316-4d32-9d54-5ce975d3f68b" valueTypeId="42ee7625-5fb3-4e68-89f4-6cd7e37e19bf"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <registerRecords>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</registerRecords>
+  <attributes uuid="03ae3fc5-d66c-4ba4-b56a-04fbb163afef" extendedConfigurationObject="e5b27a28-42e1-42b3-806c-83e1fbeb7907">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="876d7289-9e52-4093-b526-984ee2726090" extendedConfigurationObject="50c9ead0-2833-4f57-86bb-47fa6ffdc8aa">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

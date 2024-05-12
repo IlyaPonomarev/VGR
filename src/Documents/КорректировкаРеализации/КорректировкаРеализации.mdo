@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b9f95d9f-0400-4a63-9183-be7cebe31c50" extendedConfigurationObject="69ec59c6-f56d-4522-9097-9fe67516b81d">
+  <producedTypes>
+    <objectType typeId="23478358-d287-4997-9094-e84486f6b30e" valueTypeId="5033e58a-88cc-41f8-b3ef-d599fd7492d4"/>
+    <refType typeId="c5abfb55-8158-4f42-a563-6bd3f30a41f2" valueTypeId="c3edd68f-e660-4fc5-9007-6873ab410ca2"/>
+    <selectionType typeId="24fd793e-3bdb-4e92-aea9-a2b8f85ad61b" valueTypeId="456142bb-226c-4ede-9ebb-d4eac1622ad2"/>
+    <listType typeId="f03e10de-96f6-4701-9710-461df251c5f6" valueTypeId="89446000-8b67-4371-ae68-d794dd92d256"/>
+    <managerType typeId="3e3b6a25-818f-4c18-9f0c-5c7ed336112f" valueTypeId="e7168368-5abe-49d0-920b-3a8a1d84b106"/>
+  </producedTypes>
+  <name>КорректировкаРеализации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</registerRecords>
+  <attributes uuid="c06458b9-3bbb-4d53-91eb-9d8028626223" extendedConfigurationObject="e96e43f8-a80c-46e5-bbcf-d05e9b1971fe">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8854a79b-1f81-4c2b-ae5e-090219b36c41" extendedConfigurationObject="18c7605e-4ee3-4f55-b0af-9844334f5848">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидНастройки</dataPath>
+			<field>ВидНастройки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид настройки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПриложенияКДоговору</dataPath>
+			<field>НомерПриложенияКДоговору</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоказательПлана</dataPath>
+			<field>ПоказательПлана</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Партнер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПремииЗаПланЗакупок</dataPath>
+			<field>ПроцентПремииЗаПланЗакупок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДействия</dataPath>
+			<field>ПериодДействия</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПремииЗаСложныйПродукт</dataPath>
+			<field>ПроцентПремииЗаСложныйПродукт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПоказателяПлана</dataPath>
+			<field>ТипПоказателяПлана</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Производитель</dataPath>
+			<field>Производитель</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПремииЗаШоуРум</dataPath>
+			<field>ПроцентПремииЗаШоуРум</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектНастройки</dataPath>
+			<field>ОбъектНастройки</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УидНастройки</dataPath>
+			<field>УидНастройки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПриложенияКДоговору</dataPath>
+			<field>ДатаПриложенияКДоговору</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоНастроек</dataPath>
+			<field>КоличествоНастроек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество настроек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Партнеры.Ссылка КАК Партнер,
+	Партнеры.ОсновнойМенеджер КАК ОсновнойМенеджер
+ПОМЕСТИТЬ ВТ_ПартнерыОтбор
+ИЗ
+	Справочник.Партнеры КАК Партнеры
+ГДЕ
+	НЕ Партнеры.ПометкаУдаления
+	И Партнеры.Клиент
+
+ИНДЕКСИРОВАТЬ ПО
+	Партнер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+	ВТ_ПартнерыОтбор.Партнер КАК Партнер,
+	РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия КАК ПериодДействия,
+	РА_НастройкиНачисленияБонусовПартнерам.ТипПоказателяПлана КАК ТипПоказателяПлана,
+	РА_НастройкиНачисленияБонусовПартнерам.Валюта КАК Валюта,
+	РА_НастройкиНачисленияБонусовПартнерам.Производитель КАК Производитель,
+	РА_НастройкиНачисленияБонусовПартнерам.ПоказательПлана КАК ПоказательПлана,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаПланЗакупок КАК ПроцентПремииЗаПланЗакупок,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаШоуРум КАК ПроцентПремииЗаШоуРум,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаСложныйПродукт КАК ПроцентПремииЗаСложныйПродукт,
+	РА_НастройкиНачисленияБонусовПартнерам.ОбъектНастройки КАК ОбъектНастройки,
+	РА_НастройкиНачисленияБонусовПартнерам.УидНастройки КАК УидНастройки,
+	РА_НастройкиНачисленияБонусовПартнерам.НомерПриложенияКДоговору КАК НомерПриложенияКДоговору,
+	РА_НастройкиНачисленияБонусовПартнерам.ДатаПриложенияКДоговору КАК ДатаПриложенияКДоговору,
+	&amp;ТекстПоПартнерам КАК ВидНастройки,
+	ВЫБОР
+		КОГДА РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ КАК КоличествоНастроек
+ПОМЕСТИТЬ ВТ_НастройкиПоПартнерам
+ИЗ
+	ВТ_ПартнерыОтбор КАК ВТ_ПартнерыОтбор
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам КАК
+			РА_НастройкиНачисленияБонусовПартнерам
+		ПО ВТ_ПартнерыОтбор.Партнер = РА_НастройкиНачисленияБонусовПартнерам.ОбъектНастройки
+		И (РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия.НачалоПериода &lt;= &amp;ДатаОтчета)
+		И (РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия.КонецПериода &gt;= &amp;ДатаОтчета)
+
+ИНДЕКСИРОВАТЬ ПО
+	Партнер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+	РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия КАК ПериодДействия,
+	РА_НастройкиНачисленияБонусовПартнерам.ТипПоказателяПлана КАК ТипПоказателяПлана,
+	РА_НастройкиНачисленияБонусовПартнерам.Валюта КАК Валюта,
+	РА_НастройкиНачисленияБонусовПартнерам.Производитель КАК Производитель,
+	РА_НастройкиНачисленияБонусовПартнерам.ПоказательПлана КАК ПоказательПлана,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаПланЗакупок КАК ПроцентПремииЗаПланЗакупок,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаШоуРум КАК ПроцентПремииЗаШоуРум,
+	РА_НастройкиНачисленияБонусовПартнерам.ПроцентПремииЗаСложныйПродукт КАК ПроцентПремииЗаСложныйПродукт,
+	РА_НастройкиНачисленияБонусовПартнерам.ОбъектНастройки КАК ОбъектНастройки,
+	РА_НастройкиНачисленияБонусовПартнерам.УидНастройки КАК УидНастройки,
+	РА_НастройкиНачисленияБонусовПартнерам.НомерПриложенияКДоговору КАК НомерПриложенияКДоговору,
+	РА_НастройкиНачисленияБонусовПартнерам.ДатаПриложенияКДоговору КАК ДатаПриложенияКДоговору,
+	&amp;ТекстПоДоговорам КАК ВидНастройки,
+	ВТ_ПартнерыОтбор.Партнер КАК Партнер,
+	ВЫБОР
+		КОГДА РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ КАК КоличествоНастроек
+ПОМЕСТИТЬ ВТ_НастройкиПоДоговорам
+ИЗ
+	РегистрСведений.РА_ПодсистемаРасчетаБонусовПартнеров_НастройкиНачисленияБонусовПартнерам КАК
+		РА_НастройкиНачисленияБонусовПартнерам
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ПартнерыОтбор КАК ВТ_ПартнерыОтбор
+		ПО РА_НастройкиНачисленияБонусовПартнерам.ОбъектНастройки.Партнер = ВТ_ПартнерыОтбор.Партнер
+ГДЕ
+	РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия.НачалоПериода &lt;= &amp;ДатаОтчета
+	И РА_НастройкиНачисленияБонусовПартнерам.ПериодДействия.КонецПериода &gt;= &amp;ДатаОтчета
+	И ТИПЗНАЧЕНИЯ(РА_НастройкиНачисленияБонусовПартнерам.ОбъектНастройки) = ТИП(Справочник.ДоговорыКонтрагентов)
+
+ИНДЕКСИРОВАТЬ ПО
+	Партнер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ УНИЧТОЖИТЬ ВТ_ПартнерыОтбор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+	ВложенныйЗапрос.Партнер КАК Партнер,
+	ВложенныйЗапрос.ПериодДействия КАК ПериодДействия,
+	ВложенныйЗапрос.ТипПоказателяПлана КАК ТипПоказателяПлана,
+	ВложенныйЗапрос.Валюта КАК Валюта,
+	ВложенныйЗапрос.Производитель КАК Производитель,
+	ВложенныйЗапрос.ПоказательПлана КАК ПоказательПлана,
+	ВложенныйЗапрос.ПроцентПремииЗаПланЗакупок КАК ПроцентПремииЗаПланЗакупок,
+	ВложенныйЗапрос.ПроцентПремииЗаШоуРум КАК ПроцентПремииЗаШоуРум,
+	ВложенныйЗапрос.ПроцентПремииЗаСложныйПродукт КАК ПроцентПремииЗаСложныйПродукт,
+	ВложенныйЗапрос.ОбъектНастройки КАК ОбъектНастройки,
+	ВложенныйЗапрос.УидНастройки КАК УидНастройки,
+	ВложенныйЗапрос.НомерПриложенияКДоговору КАК НомерПриложенияКДоговору,
+	ВложенныйЗапрос.ДатаПриложенияКДоговору КАК ДатаПриложенияКДоговору,
+	ВложенныйЗапрос.ВидНастройки КАК ВидНастройки,
+	СУММА(ВложенныйЗапрос.КоличествоНастроек) КАК КоличествоНастроек
+ИЗ
+	(ВЫБРАТЬ
+		ВТ_НастройкиПоПартнерам.Партнер КАК Партнер,
+		ВТ_НастройкиПоПартнерам.ПериодДействия КАК ПериодДействия,
+		ВТ_НастройкиПоПартнерам.ТипПоказателяПлана КАК ТипПоказателяПлана,
+		ВТ_НастройкиПоПартнерам.Валюта КАК Валюта,
+		ВТ_НастройкиПоПартнерам.Производитель КАК Производитель,
+		ВТ_НастройкиПоПартнерам.ПоказательПлана КАК ПоказательПлана,
+		ВТ_НастройкиПоПартнерам.ПроцентПремииЗаПланЗакупок КАК ПроцентПремииЗаПланЗакупок,
+		ВТ_НастройкиПоПартнерам.ПроцентПремииЗаШоуРум КАК ПроцентПремииЗаШоуРум,
+		ВТ_НастройкиПоПартнерам.ПроцентПремииЗаСложныйПродукт КАК ПроцентПремииЗаСложныйПродукт,
+		ВТ_НастройкиПоПартнерам.ОбъектНастройки КАК ОбъектНастройки,
+		ВТ_НастройкиПоПартнерам.УидНастройки КАК УидНастройки,
+		ВТ_НастройкиПоПартнерам.НомерПриложенияКДоговору КАК НомерПриложенияКДоговору,
+		ВТ_НастройкиПоПартнерам.ДатаПриложенияКДоговору КАК ДатаПриложенияКДоговору,
+		ВТ_НастройкиПоПартнерам.ВидНастройки КАК ВидНастройки,
+		ВТ_НастройкиПоПартнерам.КоличествоНастроек КАК КоличествоНастроек
+	ИЗ
+		ВТ_НастройкиПоПартнерам КАК ВТ_НастройкиПоПартнерам
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ВТ_НастройкиПоДоговорам.Партнер,
+		ВТ_НастройкиПоДоговорам.ПериодДействия,
+		ВТ_НастройкиПоДоговорам.ТипПоказателяПлана,
+		ВТ_НастройкиПоДоговорам.Валюта,
+		ВТ_НастройкиПоДоговорам.Производитель,
+		ВТ_НастройкиПоДоговорам.ПоказательПлана,
+		ВТ_НастройкиПоДоговорам.ПроцентПремииЗаПланЗакупок,
+		ВТ_НастройкиПоДоговорам.ПроцентПремииЗаШоуРум,
+		ВТ_НастройкиПоДоговорам.ПроцентПремииЗаСложныйПродукт,
+		ВТ_НастройкиПоДоговорам.ОбъектНастройки,
+		ВТ_НастройкиПоДоговорам.УидНастройки,
+		ВТ_НастройкиПоДоговорам.НомерПриложенияКДоговору,
+		ВТ_НастройкиПоДоговорам.ДатаПриложенияКДоговору,
+		ВТ_НастройкиПоДоговорам.ВидНастройки,
+		ВТ_НастройкиПоДоговорам.КоличествоНастроек
+	ИЗ
+		ВТ_НастройкиПоДоговорам КАК ВТ_НастройкиПоДоговорам) КАК ВложенныйЗапрос
+СГРУППИРОВАТЬ ПО
+	ВложенныйЗапрос.Партнер,
+	ВложенныйЗапрос.ПериодДействия,
+	ВложенныйЗапрос.ТипПоказателяПлана,
+	ВложенныйЗапрос.Валюта,
+	ВложенныйЗапрос.Производитель,
+	ВложенныйЗапрос.ПоказательПлана,
+	ВложенныйЗапрос.ПроцентПремииЗаПланЗакупок,
+	ВложенныйЗапрос.ПроцентПремииЗаШоуРум,
+	ВложенныйЗапрос.ПроцентПремииЗаСложныйПродукт,
+	ВложенныйЗапрос.ОбъектНастройки,
+	ВложенныйЗапрос.УидНастройки,
+	ВложенныйЗапрос.НомерПриложенияКДоговору,
+	ВложенныйЗапрос.ДатаПриложенияКДоговору,
+	ВложенныйЗапрос.ВидНастройки</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоНастроек</dataPath>
+		<expression>Сумма(КоличествоНастроек)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТекстПоДоговорам</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текст по договорам</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="xs:string">По договорам</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ТекстПоПартнерам</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текст по партнерам</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="xs:string">По партнерам</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки бонусных программ на </v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">ДатаОтчета</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#00005C</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>ДатаОтчета</dcsat:name>
+			<dcsat:expression>Формат(ПараметрыДанных.ДатаОтчета,"ДФ='dd.MM.yyyy ""г.""'")</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет2</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell/>
+			</dcsat:item>
+		</template>
+	</template>
+	<groupTemplate>
+		<groupName>Заголовок</groupName>
+		<templateType>Header</templateType>
+		<template>Макет1</template>
+	</groupTemplate>
+	<groupTemplate>
+		<groupName>Пробел</groupName>
+		<templateType>Header</templateType>
+		<template>Макет2</template>
+	</groupTemplate>
+	<settingsVariant>
+		<dcsset:name>НастройкиБонусныхПрограмм</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Настройки бонусных программ</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Валюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидНастройки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПриложенияКДоговору</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоНастроек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерПриложенияКДоговору</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектНастройки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодДействия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПоказательПлана</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Производитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПремииЗаПланЗакупок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПремииЗаСложныйПродукт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПремииЗаШоуРум</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПоказателяПлана</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УидНастройки</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>8c0a9424-e93c-4e1e-8555-fa158d8d57c6</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Заголовок</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Пробел</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Партнер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидНастройки</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1139acb-c86a-4bd3-844f-5e425c15047d">
+  <producedTypes>
+    <refType typeId="ac53a185-6ab5-4d1a-b1bc-d43a24d0c55b" valueTypeId="d46c19c3-84e3-4e56-8bf9-323c8d02886f"/>
+    <listType typeId="56f78a6f-7f7c-4bb9-acd8-22271ea261dd" valueTypeId="7e098175-1284-45ca-aa38-e0c252c2f8f7"/>
+    <managerType typeId="9efeee8e-8195-45c6-9491-e2846bbd0fa0" valueTypeId="9b9e7d68-6f0a-4717-a6c8-be34ee5c399e"/>
+  </producedTypes>
+  <name>РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность автоматического формирования начисления бонусов партнерам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2cce9b81-bb05-44f3-b826-32d6474c85dc">
+    <name>ЗаПредыдущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>За предыдущий месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16a70258-befe-4e02-9e51-5133fb718e8b">
+    <name>ЗаТекущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>За текущий месяц</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

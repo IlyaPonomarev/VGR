@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="254c4b59-f6d9-4325-9a4d-f6d88cef1fce" extendedConfigurationObject="2789dce5-49b2-483e-8bfd-e279b3c8e1d7">
+  <producedTypes>
+    <managerType typeId="ed57864e-a5b2-4abd-ab23-972e527ddaed" valueTypeId="fbd6b9a7-b950-4746-a28f-5f25a71af6b8"/>
+    <valueManagerType typeId="f4907daf-8a96-49d7-9519-6d8d274939dc" valueTypeId="4bb50275-d341-4857-9e2e-cbcc56baa2ec"/>
+    <valueKeyType typeId="4b9d8756-e43d-44de-b3b1-d50ffe7091b9" valueTypeId="028a60d4-7d6d-4b70-aebf-fc8a7507e55d"/>
+  </producedTypes>
+  <name>ВалютаРегламентированногоУчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Валюты</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

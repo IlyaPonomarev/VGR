@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcebff02-8126-41c4-be0e-457e3ba2fd5e" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+  <producedTypes>
+    <objectType typeId="4a68747b-77be-4752-8da4-ef0a609850bd" valueTypeId="d1eb5641-fa5d-46a4-8ef2-8d49eedceca4"/>
+    <refType typeId="b6e61142-aedc-41ef-bbd8-304e0ec5157b" valueTypeId="efe29f0b-c670-487e-8700-1a4f0efe859f"/>
+    <selectionType typeId="f580b71f-d7c2-44a5-9496-40f4fb296226" valueTypeId="3b305626-0167-4c78-8bd4-7f6b60a19bf2"/>
+    <listType typeId="ffba9c6c-3716-40d7-beb3-3c9c98d1c2ce" valueTypeId="ee2bc83f-46a8-4e99-b3b8-95f4d674078c"/>
+    <managerType typeId="be3b77a6-d60f-49a0-8422-fc854dfb5587" valueTypeId="4735eec0-2173-4972-996c-fe773c5e05fa"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="aaa4629b-6bf9-422c-9683-f0f539dd27b0" extendedConfigurationObject="6934c1c6-ad33-4301-b7a7-24c669207013">
+    <name>ОсновнойМенеджер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6905c3d5-aadd-4fd0-83c9-aab5b9b62262" extendedConfigurationObject="2e4e19e3-f318-469a-8bd1-9678b54892a1">
+    <name>Клиент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1a8117e4-85a7-4b63-a978-c5888a346c19">
+    <name>РА_ПодсистемаРасчетаБонусовПартнеров_Контролирует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролирует</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

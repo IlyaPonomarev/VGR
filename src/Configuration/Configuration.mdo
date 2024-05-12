@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e21b055c-3e5b-4677-ad69-9ed3c427a002">
+  <name>РА_ПодсистемаРасчетаБонусовПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема расчета бонусов партнеров (РА)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e3dd6cb5-55d2-41c2-86d8-6a8004f0661a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3458b667-d2d1-44e0-a05a-a437d49ae91d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a9f8b9f3-0368-4154-b565-4f0c0ad055f7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b3c01f20-b588-4065-8b8c-9f22e2a90ae1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="15da94c6-491f-4c74-bebd-2ced61f06c07"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="78c37012-6233-4c0b-b29c-1a30f01da290"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="07be5fd0-070e-439d-a4a1-50a109cdf004"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>РА_ПодсистемаРасчетаБонусовПартнеров</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
+  <version>2024-05-10 Пономарев И.О.</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="6990adad-fd36-4181-88f8-76b98f89751f" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</subsystems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ЦветФонаВнимание</styleItems>
+  <styleItems>StyleItem.ЦветТекстаВнимание</styleItems>
+  <styleItems>StyleItem.ЦветТекстаПроблема</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <styles>Style.Основной</styles>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.ПовторитьДействие</commonPictures>
+  <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
+  <commonPictures>CommonPicture.ОтменитьДействие</commonPictures>
+  <commonPictures>CommonPicture.СохранитьКак</commonPictures>
+  <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.Сумма</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыНастроекОтчета</commonPictures>
+  <commonPictures>CommonPicture.Отборы</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</commonPictures>
+  <commonPictures>CommonPicture.ПоляИСортировки</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
+  <commonPictures>CommonPicture.Оформление</commonPictures>
+  <commonPictures>CommonPicture.Структура</commonPictures>
+  <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.ПодписанЗашифрованЗаголовок</commonPictures>
+  <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
+  <commonPictures>CommonPicture.Внимание16</commonPictures>
+  <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.РА_НачБонусовПартнерамРольПолная</roles>
+  <commonTemplates>CommonTemplate.MXL_ШаблонПрисоединенногоФайлаНачислениеБонусов</commonTemplates>
+  <commonModules>CommonModule.РА_ПодсистемаРасчетаБонусовПартнеров_РасчетБонусовСервер</commonModules>
+  <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
+  <commonModules>CommonModule.ВозвратТоваровОтКлиентаЛокализация</commonModules>
+  <commonModules>CommonModule.КорректировкаРеализацииЛокализация</commonModules>
+  <commonModules>CommonModule.ПриобретениеУслугПрочихАктивовЛокализация</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюУТСервер</commonModules>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
+  <scheduledJobs>ScheduledJob.РА_ФормированиеДокументовНачислениеБонусовПартнерам</scheduledJobs>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</definedTypes>
+  <constants>Constant.ВалютаРегламентированногоУчета</constants>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ПериодыДействияБонуса</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
+  <catalogs>Catalog.КодыОперацийРаздела7ДекларацииПоНДС</catalogs>
+  <catalogs>Catalog.ЗоныДоставки</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</catalogs>
+  <catalogs>Catalog.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ВозвратТоваровОтКлиента</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.КорректировкаРеализации</documents>
+  <documents>Document.РА_ПодсистемаРасчетаБонусовПартнеров_НачислениеБонусовПартнерам</documents>
+  <documents>Document.ПриобретениеУслугПрочихАктивов</documents>
+  <enums>Enum.ТипыДоговоров</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.ПорядокРасчетов</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
+  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
+  <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
+  <enums>Enum.ВариантыКурсаДоговора</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ВидыАгентскихДоговоров</enums>
+  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.РА_ТипыПериодов</enums>
+  <enums>Enum.РА_ТипыПремийПартнерам</enums>
+  <enums>Enum.РА_ТипыПоказателяПлана</enums>
+  <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
+  <enums>Enum.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</enums>
+  <enums>Enum.РА_ТипыПоказателяПоВидамОборудования</enums>
+  <reports>Report.РА_ВедомостьПоБонусамКлиентов</reports>
+  <reports>Report.РА_НастройкиБонусныхПрограмм</reports>
+  <dataProcessors>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</dataProcessors>
+  <informationRegisters>InformationRegister.РА_НастройкиАвтоматическогоФормированияНачисленияБонусовПартнерам</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РА_ПодсистемаРасчетаБонусовПартнеров_БонусыПартнерам</accumulationRegisters>
+</mdclass:Configuration>
