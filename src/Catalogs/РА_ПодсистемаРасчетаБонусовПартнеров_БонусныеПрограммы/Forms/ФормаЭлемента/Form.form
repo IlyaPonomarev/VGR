@@ -1224,7 +1224,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>ДополнительнаяНоменклатура</value>
+        <value>Дополнительная номенклатура</value>
       </title>
       <extendedTooltip>
         <name>ГруппаДополнительнаяНоменклатураРасширеннаяПодсказка</name>
@@ -1592,7 +1592,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>НастройкиПремийПоФорматамОтгрузки</value>
+        <value>По форматам отгрузки</value>
       </title>
       <extendedTooltip>
         <name>ГруппаНастройкиПремийПоФорматамОтгрузкиРасширеннаяПодсказка</name>
@@ -2060,7 +2060,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>НастройкиПремийПоВидамОборудования</value>
+        <value>По видам оборудования</value>
       </title>
       <extendedTooltip>
         <name>ГруппаНастройкиПремийПоВидамОборудованияРасширеннаяПодсказка</name>
