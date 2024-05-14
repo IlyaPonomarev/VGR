@@ -230,79 +230,6 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <items xsi:type="form:FormField">
-            <name>РА_ОсновнойДоговор</name>
-            <id>2068</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.РА_ПодсистемаРасчетаБонусовПартнеров_ОсновнойДоговор</segments>
-            </dataPath>
-            <toolTip>
-              <key>ru</key>
-              <value>Если договор кредитный, необходимо указать основной договор, для корректного расчета бонусов</value>
-            </toolTip>
-            <toolTipRepresentation>Button</toolTipRepresentation>
-            <handlers xsi:type="form:EventHandlerExtension">
-              <event>OnChange</event>
-              <name>РА_ПодсистемаРасчетаБонусовПартнеровРА_ОсновнойДоговорПриИзмененииПосле</name>
-              <callType>After</callType>
-            </handlers>
-            <extendedTooltip>
-              <name>РА_ОсновнойДоговорРасширеннаяПодсказка</name>
-              <id>2070</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>РА_ОсновнойДоговорКонтекстноеМеню</name>
-              <id>2069</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>29</maxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Контрагент</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Контрагент</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Партнер</segments>
-                </datapath>
-              </choiceParameterLinks>
-            </extInfo>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -14241,6 +14168,11 @@ details</value>
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>РА_ПодсистемаРасчетаБонусовПартнеровПриСозданииНаСервереПосле</name>
+    <callType>After</callType>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
