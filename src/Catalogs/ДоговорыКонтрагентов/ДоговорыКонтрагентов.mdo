@@ -878,23 +878,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0c86e521-5131-4852-aa30-73a61b35aa58">
-    <name>РА_ПодсистемаРасчетаБонусовПартнеров_ТипДоговораДляБонусов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип договора для бонусов</value>
-    </synonym>
-    <type>
-      <types>EnumRef.РА_ПодсистемаРасчетаБонусовПартнеров_ТипыДоговоровДляБонусов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.РА_ПодсистемаРасчетаБонусовПартнеров_ТипыДоговоровДляБонусов.EnumValue.Предоплатный</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="540acffe-1783-4f8e-98ad-58a70282ab2e" extendedConfigurationObject="40b52a5b-1845-4d3e-a33e-3888d0dec1ab">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>
