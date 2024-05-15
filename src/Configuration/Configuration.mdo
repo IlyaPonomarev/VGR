@@ -92,7 +92,7 @@
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
-  <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_ОбъектыНастройкиБонуснойПрограммы</definedTypes>
+  <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_АналитикаНастройкиБонусов</definedTypes>
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
@@ -144,7 +144,6 @@
   <enums>Enum.РА_ТипыПоказателяПлана</enums>
   <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
   <enums>Enum.РА_ПериодичностьАвтоматическогоФормированияНачисленияБонусовПартнерам</enums>
-  <enums>Enum.РА_ТипыПоказателяПоВидамОборудования</enums>
   <reports>Report.РА_ВедомостьПоБонусамКлиентов</reports>
   <reports>Report.РА_НастройкиБонусныхПрограмм</reports>
   <dataProcessors>DataProcessor.РА_ПодсистемаРасчетаБонусовПартнеров_ЗаполнениеБонусовПартнеровВПрошломПериоде</dataProcessors>

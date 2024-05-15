@@ -302,10 +302,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="59f3f158-ec11-454f-a5ee-fdb0f21cadd5">
-    <name>ПроцентПремииЗаСтатистическиеДанныеДанные</name>
+    <name>ПроцентПремииЗаСтатистическиеДанные</name>
     <synonym>
       <key>ru</key>
-      <value>Процент премии за статистические данные данные</value>
+      <value>Процент премии за статистические данные</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -523,25 +523,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6defe5e6-7489-4fa3-a525-10b66e80a6d4">
-      <name>ТипПоказателя</name>
-      <synonym>
-        <key>ru</key>
-        <value>Тип показателя</value>
-      </synonym>
-      <type>
-        <types>EnumRef.РА_ТипыПоказателяПоВидамОборудования</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="be9af4b1-a297-46bd-8262-d2bf6150628c">
-      <name>Показатель</name>
+      <name>Количество</name>
       <synonym>
         <key>ru</key>
-        <value>Показатель</value>
+        <value>Количество</value>
       </synonym>
       <type>
         <types>Number</types>

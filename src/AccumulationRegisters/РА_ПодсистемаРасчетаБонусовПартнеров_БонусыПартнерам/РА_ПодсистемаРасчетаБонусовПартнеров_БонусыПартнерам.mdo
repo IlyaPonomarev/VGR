@@ -84,10 +84,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <dimensions uuid="3077aef4-8a10-4fa8-a870-ae6a0c1005ae">
-    <name>АналитикаУчетаБонуснойПрограммы</name>
+    <name>БонуснаяПрограмма</name>
     <synonym>
       <key>ru</key>
-      <value>Аналитика учета бонусной программы</value>
+      <value>Бонусная программа</value>
     </synonym>
     <type>
       <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</types>
@@ -120,6 +120,21 @@
     </synonym>
     <type>
       <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ff5fecf4-a58e-41eb-876a-36e375967569">
+    <name>АналитикаНастройкиПремий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика настройки премий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</types>
+      <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

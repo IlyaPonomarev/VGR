@@ -55,10 +55,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="f171b6c1-5c16-4195-9822-2849778c9c0c">
-    <name>ПремияПоВидамПродукции</name>
+    <name>ПремияЗаВыполнениеПланаПоВидамОборудования</name>
     <synonym>
       <key>ru</key>
-      <value>Премия по видам продукции</value>
+      <value>Премия за выполнение плана по видам оборудования</value>
     </synonym>
   </enumValues>
   <enumValues uuid="11cc4c93-ee26-41aa-940b-a1acf288ba66">
