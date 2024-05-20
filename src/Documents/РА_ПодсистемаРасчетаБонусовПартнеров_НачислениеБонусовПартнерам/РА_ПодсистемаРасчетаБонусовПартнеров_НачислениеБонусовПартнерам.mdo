@@ -525,10 +525,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="109b2718-01c5-44e0-8ea8-85065af77648">
-      <name>АналитикаУчетаБонуснойПрограммы</name>
+      <name>БонуснаяПрограмма</name>
       <synonym>
         <key>ru</key>
-        <value>Аналитика учета бонусной программы</value>
+        <value>Бонусная программа</value>
       </synonym>
       <type>
         <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_БонусныеПрограммы</types>
@@ -537,6 +537,21 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49d563e5-be90-4a8b-a44c-142fe062b9cf">
+      <name>АналитикаНастройкиПремий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика настройки премий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ФорматыОтгрузки</types>
+        <types>CatalogRef.РА_ПодсистемаРасчетаБонусовПартнеров_ВидыОборудованияДляНачисленияБонусов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
