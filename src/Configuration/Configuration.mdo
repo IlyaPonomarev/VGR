@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-05-20 Пономарев И.О.</version>
+  <version>2024-05-22 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="6990adad-fd36-4181-88f8-76b98f89751f" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
@@ -93,6 +93,7 @@
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.РА_ПодсистемаРасчетаБонусовПартнеров_АналитикаНастройкиБонусов</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>

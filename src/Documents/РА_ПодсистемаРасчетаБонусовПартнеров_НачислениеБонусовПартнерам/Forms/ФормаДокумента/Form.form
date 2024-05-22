@@ -1387,7 +1387,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.НачисленияАвтоматическийРасчет.СуммаБонуса</segments>
+            <segments>Объект.НачисленияАвтоматическийРасчет.Сумма</segments>
           </dataPath>
           <extendedTooltip>
             <name>НачисленияАвтоматическийРасчетСуммаБонусаРасширеннаяПодсказка</name>
@@ -1420,8 +1420,116 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <footerDataPath xsi:type="form:DataPath">
-            <segments>Объект.НачисленияАвтоматическийРасчет.TotalСуммаБонуса</segments>
+            <segments>Объект.НачисленияАвтоматическийРасчет.Сумма</segments>
           </footerDataPath>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <format>
+              <key>ru</key>
+              <value>ЧДЦ=2; ЧН=0,00</value>
+            </format>
+            <editFormat>
+              <key>ru</key>
+              <value>ЧДЦ=2; ЧН=0,00</value>
+            </editFormat>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НачисленияАвтоматическийРасчетСтавкаНДС</name>
+          <id>332</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияАвтоматическийРасчет.СтавкаНДС</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>НачисленияАвтоматическийРасчетСтавкаНДСРасширеннаяПодсказка</name>
+            <id>334</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НачисленияАвтоматическийРасчетСтавкаНДСКонтекстноеМеню</name>
+            <id>333</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НачисленияАвтоматическийРасчетСуммаНДС</name>
+          <id>323</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияАвтоматическийРасчет.СуммаНДС</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>НачисленияАвтоматическийРасчетСуммаНДСРасширеннаяПодсказка</name>
+            <id>325</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НачисленияАвтоматическийРасчетСуммаНДСКонтекстноеМеню</name>
+            <id>324</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1727,7 +1835,7 @@
         <group>Vertical</group>
         <showTitle>true</showTitle>
         <titleDataPath xsi:type="form:DataPath">
-          <segments>Объект.НачисленияАвтоматическийРасчет.TotalСуммаБонуса</segments>
+          <segments>Объект.НачисленияАвтоматическийРасчет.Сумма</segments>
         </titleDataPath>
       </extInfo>
     </items>
@@ -2009,7 +2117,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.НачисленияРучнойРасчет.СуммаБонуса</segments>
+            <segments>Объект.НачисленияРучнойРасчет.Сумма</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -2046,8 +2154,112 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <footerDataPath xsi:type="form:DataPath">
-            <segments>Объект.НачисленияРучнойРасчет.TotalСуммаБонуса</segments>
+            <segments>Объект.НачисленияРучнойРасчет.Сумма</segments>
           </footerDataPath>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НачисленияРучнойРасчетСтавкаНДС</name>
+          <id>335</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияРучнойРасчет.СтавкаНДС</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>НачисленияРучнойРасчетСтавкаНДСПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>НачисленияРучнойРасчетСтавкаНДСРасширеннаяПодсказка</name>
+            <id>337</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НачисленияРучнойРасчетСтавкаНДСКонтекстноеМеню</name>
+            <id>336</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НачисленияРучнойРасчетСуммаНДС</name>
+          <id>329</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НачисленияРучнойРасчет.СуммаНДС</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>НачисленияРучнойРасчетСуммаНДСРасширеннаяПодсказка</name>
+            <id>331</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НачисленияРучнойРасчетСуммаНДСКонтекстноеМеню</name>
+            <id>330</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2370,7 +2582,7 @@
         <group>Vertical</group>
         <showTitle>true</showTitle>
         <titleDataPath xsi:type="form:DataPath">
-          <segments>Объект.НачисленияРучнойРасчет.TotalСуммаБонуса</segments>
+          <segments>Объект.НачисленияРучнойРасчет.Сумма</segments>
         </titleDataPath>
       </extInfo>
     </items>

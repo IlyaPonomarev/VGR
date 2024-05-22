@@ -26,7 +26,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="876d7289-9e52-4093-b526-984ee2726090" extendedConfigurationObject="50c9ead0-2833-4f57-86bb-47fa6ffdc8aa">
     <name>Партнер</name>
@@ -40,6 +39,29 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
+  <tabularSections uuid="80d6db42-480f-4308-9ade-ee825dd937e2" extendedConfigurationObject="8139626e-8ad5-43ef-8108-a207607b40b5">
+    <producedTypes>
+      <objectType typeId="60fabef3-c6c1-4c1c-a34f-499fbccb433b" valueTypeId="165825c0-e36b-4813-87e2-3d659255d537"/>
+      <rowType typeId="4b8bac95-fca1-40b2-b811-4329f65892ea" valueTypeId="b0768268-b457-4576-8a79-3a2410b2cbf0"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="9786f979-e536-4ddf-b325-37f7f43089e8" extendedConfigurationObject="1015a569-f8d5-4124-8798-aa6a1da9811d">
+      <name>СтавкаНДС</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СтавкиНДС</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
